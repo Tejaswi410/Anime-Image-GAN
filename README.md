@@ -68,6 +68,23 @@ Model persistence cells save to Google Drive paths, for example:
 
 This repo also includes pre-generated artifacts in `generatedFaces/` and `results/`.
 
+## Sample Outputs
+
+### Training Progress Snapshots
+
+Epoch 0  
+![Faces 0](generatedFaces/Faces_0.png)
+
+Epoch 5000  
+![Faces 5000](generatedFaces/Faces_5000.png)
+
+Epoch 9000  
+![Faces 9000](generatedFaces/Faces_9000.png)
+
+### Animated Progress
+
+![Animated GIF](results/Animated%20GIF.gif)
+
 ## Quick Run Flow
 
 Open the notebook and execute in order:
