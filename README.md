@@ -1,4 +1,4 @@
-# Generating Anime from Scratch (DCGAN)
+# Generating Anime  (DCGAN)
 
 This repository centers on the notebook [Generating_Anime.ipynb](Generating_Anime.ipynb), which builds and trains a DCGAN to generate `64x64` RGB anime faces and evaluates quality with FID.
 
