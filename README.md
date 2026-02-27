@@ -2,6 +2,24 @@
 
 This repository centers on the notebook [Generating_Anime_from_Scratch.ipynb](Generating_Anime_from_Scratch.ipynb), which builds and trains a DCGAN to generate `64x64` RGB anime faces and evaluates quality with FID.
 
+## Sample Outputs
+
+### Training Progress Snapshots
+
+Epoch 0  
+![Faces 0](generatedFaces/Faces_0.png)
+
+Epoch 5000  
+![Faces 5000](generatedFaces/Faces_5000.png)
+
+Epoch 9000  
+![Faces 9000](generatedFaces/Faces_9000.png)
+
+### Animated Progress
+
+![Animated GIF](results/Animated%20GIF.gif)
+
+
 ## What the Notebook Does
 
 1. Loads and preprocesses anime images (`64x64`, RGB).
@@ -68,22 +86,6 @@ Model persistence cells save to Google Drive paths, for example:
 
 This repo also includes pre-generated artifacts in `generatedFaces/` and `results/`.
 
-## Sample Outputs
-
-### Training Progress Snapshots
-
-Epoch 0  
-![Faces 0](generatedFaces/Faces_0.png)
-
-Epoch 5000  
-![Faces 5000](generatedFaces/Faces_5000.png)
-
-Epoch 9000  
-![Faces 9000](generatedFaces/Faces_9000.png)
-
-### Animated Progress
-
-![Animated GIF](results/Animated%20GIF.gif)
 
 ## Quick Run Flow
 
