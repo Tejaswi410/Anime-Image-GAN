@@ -1,6 +1,6 @@
 # Generating Anime from Scratch (DCGAN)
 
-This repository centers on the notebook [Generating_Anime_from_Scratch.ipynb](Generating_Anime_from_Scratch.ipynb), which builds and trains a DCGAN to generate `64x64` RGB anime faces and evaluates quality with FID.
+This repository centers on the notebook [Generating_Anime.ipynb](Generating_Anime.ipynb), which builds and trains a DCGAN to generate `64x64` RGB anime faces and evaluates quality with FID.
 
 ## Sample Outputs
 
@@ -32,7 +32,7 @@ Epoch 9000
 
 ## Repository Layout
 
-- `Generating_Anime_from_Scratch.ipynb` - Main training + evaluation workflow.
+- `Generating_Anime.ipynb` - Main training + evaluation workflow.
 - `generatedFaces/` - Sample generated snapshots included in this repo.
 - `results/` - Charts, GIF, and summary artifacts.
 
